@@ -1,0 +1,3588 @@
+{
+  "schemaVersion": 1,
+  "id": "comtrade-740311-annual",
+  "title": "World trade in refined copper cathode, annual (UN Comtrade)",
+  "product": "Refined copper cathodes and sections of cathodes, HS 740311",
+  "frequency": "annual",
+  "commodity": {
+    "hs6": "740311",
+    "description": "Cathodes and sections of cathodes, of refined copper"
+  },
+  "units": {
+    "quantity": "kg",
+    "value": "USD"
+  },
+  "source": {
+    "name": "UN Comtrade Database, annual merchandise trade by reporter and partner (HS)",
+    "publisher": "United Nations Statistics Division",
+    "url": "https://comtradeplus.un.org/",
+    "dataUrl": "https://comtradeapi.un.org/data/v1/get/C/A/HS",
+    "license": "UN Comtrade data use and re-dissemination policy: free not-for-profit visualisation of limited amounts, no bulk download",
+    "attribution": "Source: UN Comtrade Database, United Nations Statistics Division.",
+    "released": null,
+    "retrievedAt": "2026-10-21T21:53:08Z"
+  },
+  "firstYear": 2015,
+  "latestYear": 2025,
+  "transformations": [
+    "Data API, annual, HS 740311, exports and imports for every reporter and partner, one request per year and flow",
+    "Totals only: customs procedure C00, mode of transport 0, second partner 0 (the breakdowns would double-count)",
+    "Value: Comtrade's primary value, FOB for exports; CIF for imports, or FOB where the reporter values imports FOB",
+    "Weight: net weight in kg, else the quantity in kg; a reported figure before an estimate by UN Comtrade; none = missing",
+    "Checked that every reporter's partner records add up to its World total",
+    "Values kept as published; tonnes, shares, rankings and mirror gaps on the site are calculated from them"
+  ],
+  "quality": {
+    "status": "provisional",
+    "notes": [
+      "Reporters send and revise annual figures over many months; the latest years are incomplete.",
+      "Exporters' and importers' figures for the same trade differ (FOB vs CIF, timing, country of origin vs consignment, confidentiality).",
+      "Imports are recorded by country of origin, which need not be the country the cargo was shipped from."
+    ]
+  },
+  "countries": {
+    "0": {
+      "name": "World",
+      "iso3": null,
+      "at": null
+    },
+    "4": {
+      "name": "Afghanistan",
+      "iso3": "AFG",
+      "at": [
+        66,
+        33.8
+      ]
+    },
+    "8": {
+      "name": "Albania",
+      "iso3": "ALB",
+      "at": [
+        20,
+        41.1
+      ]
+    },
+    "12": {
+      "name": "Algeria",
+      "iso3": "DZA",
+      "at": [
+        2.6,
+        28.1
+      ]
+    },
+    "20": {
+      "name": "Andorra",
+      "iso3": "AND",
+      "at": [
+        1.5,
+        42.5
+      ]
+    },
+    "24": {
+      "name": "Angola",
+      "iso3": "AGO",
+      "at": [
+        17.5,
+        -12.3
+      ]
+    },
+    "28": {
+      "name": "Antigua and Barbuda",
+      "iso3": "ATG",
+      "at": [
+        -61.8,
+        17.1
+      ]
+    },
+    "31": {
+      "name": "Azerbaijan",
+      "iso3": "AZE",
+      "at": [
+        47.7,
+        40.3
+      ]
+    },
+    "32": {
+      "name": "Argentina",
+      "iso3": "ARG",
+      "at": [
+        -64.7,
+        -34.6
+      ]
+    },
+    "36": {
+      "name": "Australia",
+      "iso3": "AUS",
+      "at": [
+        134.2,
+        -25.6
+      ]
+    },
+    "40": {
+      "name": "Austria",
+      "iso3": "AUT",
+      "at": [
+        14.1,
+        47.6
+      ]
+    },
+    "44": {
+      "name": "Bahamas",
+      "iso3": "BHS",
+      "at": [
+        -77.9,
+        24.5
+      ]
+    },
+    "48": {
+      "name": "Bahrain",
+      "iso3": "BHR",
+      "at": [
+        50.6,
+        26.2
+      ]
+    },
+    "50": {
+      "name": "Bangladesh",
+      "iso3": "BGD",
+      "at": [
+        90.3,
+        23.8
+      ]
+    },
+    "51": {
+      "name": "Armenia",
+      "iso3": "ARM",
+      "at": [
+        45,
+        40.2
+      ]
+    },
+    "52": {
+      "name": "Barbados",
+      "iso3": "BRB",
+      "at": [
+        -59.6,
+        13.1
+      ]
+    },
+    "56": {
+      "name": "Belgium",
+      "iso3": "BEL",
+      "at": [
+        4.6,
+        50.7
+      ]
+    },
+    "60": {
+      "name": "Bermuda",
+      "iso3": "BMU",
+      "at": [
+        -64.8,
+        32.3
+      ]
+    },
+    "64": {
+      "name": "Bhutan",
+      "iso3": "BTN",
+      "at": [
+        90.5,
+        27.4
+      ]
+    },
+    "68": {
+      "name": "Bolivia (Plurinational State of)",
+      "iso3": "BOL",
+      "at": [
+        -64.7,
+        -16.7
+      ]
+    },
+    "70": {
+      "name": "Bosnia Herzegovina",
+      "iso3": "BIH",
+      "at": [
+        17.8,
+        44.2
+      ]
+    },
+    "72": {
+      "name": "Botswana",
+      "iso3": "BWA",
+      "at": [
+        23.8,
+        -22.1
+      ]
+    },
+    "76": {
+      "name": "Brazil",
+      "iso3": "BRA",
+      "at": [
+        -53.2,
+        -10.7
+      ]
+    },
+    "84": {
+      "name": "Belize",
+      "iso3": "BLZ",
+      "at": [
+        -88.7,
+        17.2
+      ]
+    },
+    "92": {
+      "name": "Br. Virgin Isds",
+      "iso3": "VGB",
+      "at": [
+        -64.6,
+        18.4
+      ]
+    },
+    "96": {
+      "name": "Brunei Darussalam",
+      "iso3": "BRN",
+      "at": [
+        114.9,
+        4.7
+      ]
+    },
+    "100": {
+      "name": "Bulgaria",
+      "iso3": "BGR",
+      "at": [
+        25.2,
+        42.8
+      ]
+    },
+    "104": {
+      "name": "Myanmar",
+      "iso3": "MMR",
+      "at": [
+        96.5,
+        20.9
+      ]
+    },
+    "112": {
+      "name": "Belarus",
+      "iso3": "BLR",
+      "at": [
+        28,
+        53.5
+      ]
+    },
+    "116": {
+      "name": "Cambodia",
+      "iso3": "KHM",
+      "at": [
+        104.9,
+        12.7
+      ]
+    },
+    "120": {
+      "name": "Cameroon",
+      "iso3": "CMR",
+      "at": [
+        12.6,
+        5.7
+      ]
+    },
+    "124": {
+      "name": "Canada",
+      "iso3": "CAN",
+      "at": [
+        -97.9,
+        58.4
+      ]
+    },
+    "132": {
+      "name": "Cabo Verde",
+      "iso3": "CPV",
+      "at": [
+        -23.5,
+        14.9
+      ]
+    },
+    "136": {
+      "name": "Cayman Isds",
+      "iso3": "CYM",
+      "at": [
+        -81.4,
+        19.3
+      ]
+    },
+    "140": {
+      "name": "Central African Rep.",
+      "iso3": "CAF",
+      "at": [
+        20.4,
+        6.5
+      ]
+    },
+    "144": {
+      "name": "Sri Lanka",
+      "iso3": "LKA",
+      "at": [
+        80.7,
+        7.7
+      ]
+    },
+    "148": {
+      "name": "Chad",
+      "iso3": "TCD",
+      "at": [
+        18.6,
+        15.3
+      ]
+    },
+    "152": {
+      "name": "Chile",
+      "iso3": "CHL",
+      "at": [
+        -71.2,
+        -35.9
+      ]
+    },
+    "156": {
+      "name": "China",
+      "iso3": "CHN",
+      "at": [
+        103.4,
+        36.7
+      ]
+    },
+    "170": {
+      "name": "Colombia",
+      "iso3": "COL",
+      "at": [
+        -73.1,
+        3.9
+      ]
+    },
+    "178": {
+      "name": "Congo",
+      "iso3": "COG",
+      "at": [
+        15.1,
+        -0.8
+      ]
+    },
+    "180": {
+      "name": "Dem. Rep. of the Congo",
+      "iso3": "COD",
+      "at": [
+        23.6,
+        -2.8
+      ]
+    },
+    "188": {
+      "name": "Costa Rica",
+      "iso3": "CRI",
+      "at": [
+        -84.2,
+        10
+      ]
+    },
+    "191": {
+      "name": "Croatia",
+      "iso3": "HRV",
+      "at": [
+        16.6,
+        45
+      ]
+    },
+    "192": {
+      "name": "Cuba",
+      "iso3": "CUB",
+      "at": [
+        -78.9,
+        21.6
+      ]
+    },
+    "196": {
+      "name": "Cyprus",
+      "iso3": "CYP",
+      "at": [
+        33,
+        34.9
+      ]
+    },
+    "203": {
+      "name": "Czechia",
+      "iso3": "CZE",
+      "at": [
+        15.3,
+        49.8
+      ]
+    },
+    "204": {
+      "name": "Benin",
+      "iso3": "BEN",
+      "at": [
+        2.3,
+        9.6
+      ]
+    },
+    "208": {
+      "name": "Denmark",
+      "iso3": "DNK",
+      "at": [
+        9.3,
+        56.2
+      ]
+    },
+    "212": {
+      "name": "Dominica",
+      "iso3": "DMA",
+      "at": [
+        -61.4,
+        15.3
+      ]
+    },
+    "214": {
+      "name": "Dominican Rep.",
+      "iso3": "DOM",
+      "at": [
+        -70.5,
+        18.9
+      ]
+    },
+    "218": {
+      "name": "Ecuador",
+      "iso3": "ECU",
+      "at": [
+        -78.4,
+        -1.5
+      ]
+    },
+    "222": {
+      "name": "El Salvador",
+      "iso3": "SLV",
+      "at": [
+        -88.9,
+        13.7
+      ]
+    },
+    "226": {
+      "name": "Equatorial Guinea",
+      "iso3": "GNQ",
+      "at": [
+        10.4,
+        1.6
+      ]
+    },
+    "231": {
+      "name": "Ethiopia",
+      "iso3": "ETH",
+      "at": [
+        39.6,
+        8.6
+      ]
+    },
+    "233": {
+      "name": "Estonia",
+      "iso3": "EST",
+      "at": [
+        25.8,
+        58.6
+      ]
+    },
+    "234": {
+      "name": "Faroe Isds",
+      "iso3": "FRO",
+      "at": [
+        -6.8,
+        62
+      ]
+    },
+    "238": {
+      "name": "Falkland Isds (Malvinas)",
+      "iso3": "FLK",
+      "at": [
+        -59.4,
+        -51.7
+      ]
+    },
+    "246": {
+      "name": "Finland",
+      "iso3": "FIN",
+      "at": [
+        26.1,
+        64.3
+      ]
+    },
+    "251": {
+      "name": "France",
+      "iso3": "FRA",
+      "at": [
+        2.3,
+        46.6
+      ]
+    },
+    "258": {
+      "name": "French Polynesia",
+      "iso3": "PYF",
+      "at": [
+        -149.6,
+        -17.5
+      ]
+    },
+    "262": {
+      "name": "Djibouti",
+      "iso3": "DJI",
+      "at": [
+        42.5,
+        11.8
+      ]
+    },
+    "266": {
+      "name": "Gabon",
+      "iso3": "GAB",
+      "at": [
+        11.7,
+        -0.6
+      ]
+    },
+    "268": {
+      "name": "Georgia",
+      "iso3": "GEO",
+      "at": [
+        43.5,
+        42.2
+      ]
+    },
+    "270": {
+      "name": "Gambia",
+      "iso3": "GMB",
+      "at": [
+        -15.4,
+        13.5
+      ]
+    },
+    "276": {
+      "name": "Germany",
+      "iso3": "DEU",
+      "at": [
+        10.3,
+        51.1
+      ]
+    },
+    "288": {
+      "name": "Ghana",
+      "iso3": "GHA",
+      "at": [
+        -1.2,
+        7.9
+      ]
+    },
+    "292": {
+      "name": "Gibraltar",
+      "iso3": "GIB",
+      "at": [
+        -5.4,
+        36.1
+      ]
+    },
+    "296": {
+      "name": "Kiribati",
+      "iso3": "KIR",
+      "at": [
+        173,
+        1.3
+      ]
+    },
+    "300": {
+      "name": "Greece",
+      "iso3": "GRC",
+      "at": [
+        22.5,
+        39.3
+      ]
+    },
+    "308": {
+      "name": "Grenada",
+      "iso3": "GRD",
+      "at": [
+        -61.8,
+        12.1
+      ]
+    },
+    "320": {
+      "name": "Guatemala",
+      "iso3": "GTM",
+      "at": [
+        -90.4,
+        15.7
+      ]
+    },
+    "324": {
+      "name": "Guinea",
+      "iso3": "GIN",
+      "at": [
+        -11.1,
+        10.5
+      ]
+    },
+    "328": {
+      "name": "Guyana",
+      "iso3": "GUY",
+      "at": [
+        -59,
+        4.8
+      ]
+    },
+    "332": {
+      "name": "Haiti",
+      "iso3": "HTI",
+      "at": [
+        -72.7,
+        18.9
+      ]
+    },
+    "340": {
+      "name": "Honduras",
+      "iso3": "HND",
+      "at": [
+        -86.6,
+        14.8
+      ]
+    },
+    "344": {
+      "name": "China, Hong Kong SAR",
+      "iso3": "HKG",
+      "at": [
+        114.2,
+        22.3
+      ]
+    },
+    "348": {
+      "name": "Hungary",
+      "iso3": "HUN",
+      "at": [
+        19.3,
+        47.2
+      ]
+    },
+    "352": {
+      "name": "Iceland",
+      "iso3": "ISL",
+      "at": [
+        -18.8,
+        65.1
+      ]
+    },
+    "360": {
+      "name": "Indonesia",
+      "iso3": "IDN",
+      "at": [
+        114,
+        -0.3
+      ]
+    },
+    "364": {
+      "name": "Iran",
+      "iso3": "IRN",
+      "at": [
+        54.5,
+        32.5
+      ]
+    },
+    "368": {
+      "name": "Iraq",
+      "iso3": "IRQ",
+      "at": [
+        43.8,
+        33
+      ]
+    },
+    "372": {
+      "name": "Ireland",
+      "iso3": "IRL",
+      "at": [
+        -8,
+        53.2
+      ]
+    },
+    "376": {
+      "name": "Israel",
+      "iso3": "ISR",
+      "at": [
+        35,
+        31.5
+      ]
+    },
+    "380": {
+      "name": "Italy",
+      "iso3": "ITA",
+      "at": [
+        12.4,
+        43.4
+      ]
+    },
+    "384": {
+      "name": "Côte d'Ivoire",
+      "iso3": "CIV",
+      "at": [
+        -5.6,
+        7.6
+      ]
+    },
+    "388": {
+      "name": "Jamaica",
+      "iso3": "JAM",
+      "at": [
+        -77.3,
+        18.1
+      ]
+    },
+    "392": {
+      "name": "Japan",
+      "iso3": "JPN",
+      "at": [
+        136.7,
+        36
+      ]
+    },
+    "398": {
+      "name": "Kazakhstan",
+      "iso3": "KAZ",
+      "at": [
+        67.2,
+        48.4
+      ]
+    },
+    "400": {
+      "name": "Jordan",
+      "iso3": "JOR",
+      "at": [
+        36.8,
+        31.2
+      ]
+    },
+    "404": {
+      "name": "Kenya",
+      "iso3": "KEN",
+      "at": [
+        37.8,
+        0.6
+      ]
+    },
+    "408": {
+      "name": "Dem. People's Rep. of Korea",
+      "iso3": "PRK",
+      "at": [
+        127.1,
+        40.1
+      ]
+    },
+    "410": {
+      "name": "Rep. of Korea",
+      "iso3": "KOR",
+      "at": [
+        127.8,
+        36.4
+      ]
+    },
+    "414": {
+      "name": "Kuwait",
+      "iso3": "KWT",
+      "at": [
+        47.6,
+        29.3
+      ]
+    },
+    "417": {
+      "name": "Kyrgyzstan",
+      "iso3": "KGZ",
+      "at": [
+        74.6,
+        41.5
+      ]
+    },
+    "418": {
+      "name": "Lao People's Dem. Rep.",
+      "iso3": "LAO",
+      "at": [
+        103.8,
+        18.4
+      ]
+    },
+    "422": {
+      "name": "Lebanon",
+      "iso3": "LBN",
+      "at": [
+        35.9,
+        33.9
+      ]
+    },
+    "426": {
+      "name": "Lesotho",
+      "iso3": "LSO",
+      "at": [
+        28.2,
+        -29.6
+      ]
+    },
+    "428": {
+      "name": "Latvia",
+      "iso3": "LVA",
+      "at": [
+        24.8,
+        56.8
+      ]
+    },
+    "430": {
+      "name": "Liberia",
+      "iso3": "LBR",
+      "at": [
+        -9.4,
+        6.4
+      ]
+    },
+    "434": {
+      "name": "Libya",
+      "iso3": "LBY",
+      "at": [
+        18,
+        27
+      ]
+    },
+    "440": {
+      "name": "Lithuania",
+      "iso3": "LTU",
+      "at": [
+        23.9,
+        55.3
+      ]
+    },
+    "442": {
+      "name": "Luxembourg",
+      "iso3": "LUX",
+      "at": [
+        6,
+        49.8
+      ]
+    },
+    "450": {
+      "name": "Madagascar",
+      "iso3": "MDG",
+      "at": [
+        46.7,
+        -19.3
+      ]
+    },
+    "454": {
+      "name": "Malawi",
+      "iso3": "MWI",
+      "at": [
+        34.2,
+        -13.2
+      ]
+    },
+    "458": {
+      "name": "Malaysia",
+      "iso3": "MYS",
+      "at": [
+        114.7,
+        3.5
+      ]
+    },
+    "466": {
+      "name": "Mali",
+      "iso3": "MLI",
+      "at": [
+        -3.6,
+        17.2
+      ]
+    },
+    "470": {
+      "name": "Malta",
+      "iso3": "MLT",
+      "at": [
+        14.5,
+        35.9
+      ]
+    },
+    "478": {
+      "name": "Mauritania",
+      "iso3": "MRT",
+      "at": [
+        -10.3,
+        20.2
+      ]
+    },
+    "480": {
+      "name": "Mauritius",
+      "iso3": "MUS",
+      "at": [
+        57.5,
+        -20.2
+      ]
+    },
+    "484": {
+      "name": "Mexico",
+      "iso3": "MEX",
+      "at": [
+        -102.2,
+        23.9
+      ]
+    },
+    "490": {
+      "name": "Other Asia, nes",
+      "iso3": null,
+      "at": null
+    },
+    "496": {
+      "name": "Mongolia",
+      "iso3": "MNG",
+      "at": [
+        103,
+        47
+      ]
+    },
+    "498": {
+      "name": "Rep. of Moldova",
+      "iso3": "MDA",
+      "at": [
+        28.4,
+        47.2
+      ]
+    },
+    "499": {
+      "name": "Montenegro",
+      "iso3": "MNE",
+      "at": [
+        19.3,
+        42.8
+      ]
+    },
+    "504": {
+      "name": "Morocco",
+      "iso3": "MAR",
+      "at": [
+        -8.7,
+        29.8
+      ]
+    },
+    "508": {
+      "name": "Mozambique",
+      "iso3": "MOZ",
+      "at": [
+        35.5,
+        -17.2
+      ]
+    },
+    "512": {
+      "name": "Oman",
+      "iso3": "OMN",
+      "at": [
+        56.1,
+        20.6
+      ]
+    },
+    "516": {
+      "name": "Namibia",
+      "iso3": "NAM",
+      "at": [
+        17.1,
+        -22
+      ]
+    },
+    "524": {
+      "name": "Nepal",
+      "iso3": "NPL",
+      "at": [
+        84,
+        28.2
+      ]
+    },
+    "528": {
+      "name": "Netherlands",
+      "iso3": "NLD",
+      "at": [
+        5.5,
+        52.3
+      ]
+    },
+    "531": {
+      "name": "Curaçao",
+      "iso3": "CUW",
+      "at": [
+        -68.9,
+        12.1
+      ]
+    },
+    "533": {
+      "name": "Aruba",
+      "iso3": "ABW",
+      "at": [
+        -70,
+        12.5
+      ]
+    },
+    "534": {
+      "name": "Saint Maarten",
+      "iso3": "SXM",
+      "at": [
+        -63.1,
+        18
+      ]
+    },
+    "535": {
+      "name": "Bonaire",
+      "iso3": "BES",
+      "at": [
+        -68.3,
+        12.2
+      ]
+    },
+    "554": {
+      "name": "New Zealand",
+      "iso3": "NZL",
+      "at": [
+        170.6,
+        -44
+      ]
+    },
+    "558": {
+      "name": "Nicaragua",
+      "iso3": "NIC",
+      "at": [
+        -85,
+        12.8
+      ]
+    },
+    "566": {
+      "name": "Nigeria",
+      "iso3": "NGA",
+      "at": [
+        8,
+        9.5
+      ]
+    },
+    "568": {
+      "name": "Other Europe, nes",
+      "iso3": null,
+      "at": null
+    },
+    "579": {
+      "name": "Norway",
+      "iso3": "NOR",
+      "at": [
+        12.4,
+        64.1
+      ]
+    },
+    "585": {
+      "name": "Palau",
+      "iso3": "PLW",
+      "at": [
+        134.6,
+        7.5
+      ]
+    },
+    "586": {
+      "name": "Pakistan",
+      "iso3": "PAK",
+      "at": [
+        69.2,
+        29.9
+      ]
+    },
+    "591": {
+      "name": "Panama",
+      "iso3": "PAN",
+      "at": [
+        -80.1,
+        8.5
+      ]
+    },
+    "598": {
+      "name": "Papua New Guinea",
+      "iso3": "PNG",
+      "at": [
+        144.3,
+        -6.6
+      ]
+    },
+    "600": {
+      "name": "Paraguay",
+      "iso3": "PRY",
+      "at": [
+        -58.4,
+        -23.2
+      ]
+    },
+    "604": {
+      "name": "Peru",
+      "iso3": "PER",
+      "at": [
+        -74.4,
+        -9.1
+      ]
+    },
+    "608": {
+      "name": "Philippines",
+      "iso3": "PHL",
+      "at": [
+        121.6,
+        15.7
+      ]
+    },
+    "616": {
+      "name": "Poland",
+      "iso3": "POL",
+      "at": [
+        19.3,
+        52.1
+      ]
+    },
+    "620": {
+      "name": "Portugal",
+      "iso3": "PRT",
+      "at": [
+        -8.1,
+        39.6
+      ]
+    },
+    "634": {
+      "name": "Qatar",
+      "iso3": "QAT",
+      "at": [
+        51.2,
+        25.3
+      ]
+    },
+    "642": {
+      "name": "Romania",
+      "iso3": "ROU",
+      "at": [
+        25,
+        45.9
+      ]
+    },
+    "643": {
+      "name": "Russian Federation",
+      "iso3": "RUS",
+      "at": [
+        95.7,
+        65.9
+      ]
+    },
+    "646": {
+      "name": "Rwanda",
+      "iso3": "RWA",
+      "at": [
+        29.9,
+        -2
+      ]
+    },
+    "652": {
+      "name": "Saint Barthélemy",
+      "iso3": "BLM",
+      "at": [
+        -62.8,
+        17.9
+      ]
+    },
+    "654": {
+      "name": "Saint Helena",
+      "iso3": "SHN",
+      "at": [
+        -5.7,
+        -15.9
+      ]
+    },
+    "660": {
+      "name": "Anguilla",
+      "iso3": "AIA",
+      "at": [
+        -63.1,
+        18.2
+      ]
+    },
+    "662": {
+      "name": "Saint Lucia",
+      "iso3": "LCA",
+      "at": [
+        -61,
+        14
+      ]
+    },
+    "674": {
+      "name": "San Marino",
+      "iso3": "SMR",
+      "at": [
+        12.4,
+        43.9
+      ]
+    },
+    "682": {
+      "name": "Saudi Arabia",
+      "iso3": "SAU",
+      "at": [
+        44.6,
+        24.1
+      ]
+    },
+    "686": {
+      "name": "Senegal",
+      "iso3": "SEN",
+      "at": [
+        -14.5,
+        14.4
+      ]
+    },
+    "688": {
+      "name": "Serbia",
+      "iso3": "SRB",
+      "at": [
+        20.8,
+        44.2
+      ]
+    },
+    "690": {
+      "name": "Seychelles",
+      "iso3": "SYC",
+      "at": [
+        55.5,
+        -4.6
+      ]
+    },
+    "694": {
+      "name": "Sierra Leone",
+      "iso3": "SLE",
+      "at": [
+        -11.8,
+        8.5
+      ]
+    },
+    "699": {
+      "name": "India",
+      "iso3": "IND",
+      "at": [
+        79.5,
+        22.8
+      ]
+    },
+    "702": {
+      "name": "Singapore",
+      "iso3": "SGP",
+      "at": [
+        103.8,
+        1.4
+      ]
+    },
+    "703": {
+      "name": "Slovakia",
+      "iso3": "SVK",
+      "at": [
+        19.5,
+        48.7
+      ]
+    },
+    "704": {
+      "name": "Viet Nam",
+      "iso3": "VNM",
+      "at": [
+        106.3,
+        16.6
+      ]
+    },
+    "705": {
+      "name": "Slovenia",
+      "iso3": "SVN",
+      "at": [
+        14.9,
+        46.1
+      ]
+    },
+    "706": {
+      "name": "Somalia",
+      "iso3": "SOM",
+      "at": [
+        45.7,
+        4.7
+      ]
+    },
+    "710": {
+      "name": "South Africa",
+      "iso3": "ZAF",
+      "at": [
+        25.2,
+        -28.9
+      ]
+    },
+    "716": {
+      "name": "Zimbabwe",
+      "iso3": "ZWE",
+      "at": [
+        29.8,
+        -18.9
+      ]
+    },
+    "724": {
+      "name": "Spain",
+      "iso3": "ESP",
+      "at": [
+        -3.6,
+        40.3
+      ]
+    },
+    "728": {
+      "name": "South Sudan",
+      "iso3": "SSD",
+      "at": [
+        30.2,
+        7.3
+      ]
+    },
+    "729": {
+      "name": "Sudan",
+      "iso3": "SDN",
+      "at": [
+        29.8,
+        16
+      ]
+    },
+    "740": {
+      "name": "Suriname",
+      "iso3": "SUR",
+      "at": [
+        -55.9,
+        4.1
+      ]
+    },
+    "748": {
+      "name": "Eswatini",
+      "iso3": "SWZ",
+      "at": [
+        31.4,
+        -26.5
+      ]
+    },
+    "752": {
+      "name": "Sweden",
+      "iso3": "SWE",
+      "at": [
+        16.1,
+        62.4
+      ]
+    },
+    "757": {
+      "name": "Switzerland",
+      "iso3": "CHE",
+      "at": [
+        8.1,
+        46.8
+      ]
+    },
+    "760": {
+      "name": "Syria",
+      "iso3": "SYR",
+      "at": [
+        38.5,
+        35
+      ]
+    },
+    "762": {
+      "name": "Tajikistan",
+      "iso3": "TJK",
+      "at": [
+        71,
+        38.6
+      ]
+    },
+    "764": {
+      "name": "Thailand",
+      "iso3": "THA",
+      "at": [
+        101,
+        15
+      ]
+    },
+    "768": {
+      "name": "Togo",
+      "iso3": "TGO",
+      "at": [
+        1,
+        8.4
+      ]
+    },
+    "780": {
+      "name": "Trinidad and Tobago",
+      "iso3": "TTO",
+      "at": [
+        -61.3,
+        10.4
+      ]
+    },
+    "784": {
+      "name": "United Arab Emirates",
+      "iso3": "ARE",
+      "at": [
+        54.2,
+        23.9
+      ]
+    },
+    "788": {
+      "name": "Tunisia",
+      "iso3": "TUN",
+      "at": [
+        9.5,
+        34.1
+      ]
+    },
+    "792": {
+      "name": "Türkiye",
+      "iso3": "TUR",
+      "at": [
+        35.4,
+        39.1
+      ]
+    },
+    "795": {
+      "name": "Turkmenistan",
+      "iso3": "TKM",
+      "at": [
+        59.3,
+        39.1
+      ]
+    },
+    "798": {
+      "name": "Tuvalu",
+      "iso3": "TUV",
+      "at": [
+        179.2,
+        -8.5
+      ]
+    },
+    "800": {
+      "name": "Uganda",
+      "iso3": "UGA",
+      "at": [
+        32.4,
+        1.3
+      ]
+    },
+    "804": {
+      "name": "Ukraine",
+      "iso3": "UKR",
+      "at": [
+        31.3,
+        49.2
+      ]
+    },
+    "807": {
+      "name": "North Macedonia",
+      "iso3": "MKD",
+      "at": [
+        21.7,
+        41.6
+      ]
+    },
+    "818": {
+      "name": "Egypt",
+      "iso3": "EGY",
+      "at": [
+        29.9,
+        26.5
+      ]
+    },
+    "826": {
+      "name": "United Kingdom",
+      "iso3": "GBR",
+      "at": [
+        -2.6,
+        53.8
+      ]
+    },
+    "834": {
+      "name": "United Rep. of Tanzania",
+      "iso3": "TZA",
+      "at": [
+        34.7,
+        -6.3
+      ]
+    },
+    "837": {
+      "name": "Bunkers",
+      "iso3": null,
+      "at": null
+    },
+    "838": {
+      "name": "Free Zones",
+      "iso3": null,
+      "at": null
+    },
+    "839": {
+      "name": "Special Categories",
+      "iso3": null,
+      "at": null
+    },
+    "842": {
+      "name": "USA",
+      "iso3": "USA",
+      "at": [
+        -98.7,
+        39.9
+      ]
+    },
+    "854": {
+      "name": "Burkina Faso",
+      "iso3": "BFA",
+      "at": [
+        -1.8,
+        12.3
+      ]
+    },
+    "858": {
+      "name": "Uruguay",
+      "iso3": "URY",
+      "at": [
+        -56,
+        -32.8
+      ]
+    },
+    "860": {
+      "name": "Uzbekistan",
+      "iso3": "UZB",
+      "at": [
+        63.4,
+        41.8
+      ]
+    },
+    "862": {
+      "name": "Venezuela",
+      "iso3": "VEN",
+      "at": [
+        -66.2,
+        7.2
+      ]
+    },
+    "887": {
+      "name": "Yemen",
+      "iso3": "YEM",
+      "at": [
+        47.5,
+        15.9
+      ]
+    },
+    "894": {
+      "name": "Zambia",
+      "iso3": "ZMB",
+      "at": [
+        27.8,
+        -13.4
+      ]
+    },
+    "899": {
+      "name": "Areas, nes",
+      "iso3": null,
+      "at": null
+    }
+  },
+  "years": [
+    {
+      "year": 2015,
+      "file": "comtrade-740311-2015.json",
+      "sha256": "05db40823f38738f4616b48df3053b3e9e432cd7b61455e5057b26d5f28da7e0",
+      "bytes": 139883,
+      "rows": 1638,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          68,
+          76,
+          100,
+          104,
+          112,
+          124,
+          152,
+          156,
+          196,
+          203,
+          233,
+          246,
+          251,
+          276,
+          300,
+          320,
+          344,
+          348,
+          360,
+          364,
+          380,
+          392,
+          398,
+          400,
+          410,
+          417,
+          418,
+          422,
+          458,
+          484,
+          490,
+          496,
+          512,
+          516,
+          528,
+          579,
+          604,
+          608,
+          616,
+          642,
+          643,
+          682,
+          688,
+          699,
+          702,
+          703,
+          705,
+          710,
+          716,
+          724,
+          752,
+          757,
+          764,
+          784,
+          792,
+          804,
+          807,
+          826,
+          834,
+          842,
+          894
+        ],
+        "imports": [
+          12,
+          24,
+          32,
+          36,
+          40,
+          50,
+          56,
+          68,
+          70,
+          72,
+          76,
+          100,
+          104,
+          112,
+          116,
+          120,
+          124,
+          144,
+          152,
+          156,
+          170,
+          180,
+          191,
+          203,
+          208,
+          218,
+          231,
+          246,
+          251,
+          268,
+          276,
+          288,
+          300,
+          320,
+          332,
+          344,
+          348,
+          360,
+          364,
+          372,
+          376,
+          380,
+          392,
+          398,
+          404,
+          410,
+          414,
+          418,
+          428,
+          440,
+          442,
+          458,
+          470,
+          484,
+          490,
+          504,
+          508,
+          512,
+          516,
+          528,
+          554,
+          566,
+          579,
+          586,
+          591,
+          604,
+          608,
+          616,
+          620,
+          634,
+          642,
+          643,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          729,
+          748,
+          752,
+          757,
+          764,
+          784,
+          788,
+          792,
+          804,
+          807,
+          818,
+          826,
+          842,
+          858,
+          894
+        ]
+      },
+      "coverage": {
+        "exports": null,
+        "imports": null
+      },
+      "notReported": {
+        "exports": [],
+        "imports": []
+      }
+    },
+    {
+      "year": 2016,
+      "file": "comtrade-740311-2016.json",
+      "sha256": "e12c605b9ba1eef0631f680a89e441b95c08f0295187a0da18149f5ea14647fa",
+      "bytes": 124007,
+      "rows": 1433,
+      "reporters": {
+        "exports": [
+          31,
+          32,
+          36,
+          40,
+          68,
+          76,
+          100,
+          104,
+          124,
+          152,
+          156,
+          196,
+          203,
+          208,
+          246,
+          251,
+          268,
+          276,
+          300,
+          320,
+          344,
+          348,
+          360,
+          364,
+          380,
+          392,
+          398,
+          410,
+          418,
+          440,
+          458,
+          484,
+          490,
+          496,
+          512,
+          516,
+          528,
+          579,
+          604,
+          608,
+          616,
+          620,
+          642,
+          643,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          724,
+          752,
+          757,
+          764,
+          784,
+          792,
+          804,
+          807,
+          826,
+          834,
+          842,
+          894
+        ],
+        "imports": [
+          12,
+          24,
+          31,
+          32,
+          40,
+          50,
+          56,
+          70,
+          72,
+          76,
+          100,
+          112,
+          124,
+          132,
+          144,
+          152,
+          156,
+          170,
+          178,
+          180,
+          188,
+          191,
+          192,
+          203,
+          214,
+          218,
+          231,
+          246,
+          251,
+          276,
+          288,
+          300,
+          320,
+          324,
+          344,
+          348,
+          352,
+          360,
+          364,
+          372,
+          376,
+          380,
+          384,
+          392,
+          398,
+          404,
+          410,
+          414,
+          418,
+          428,
+          440,
+          442,
+          458,
+          480,
+          484,
+          490,
+          499,
+          504,
+          508,
+          512,
+          516,
+          524,
+          528,
+          554,
+          558,
+          566,
+          586,
+          608,
+          616,
+          620,
+          642,
+          643,
+          646,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          729,
+          752,
+          757,
+          764,
+          784,
+          788,
+          792,
+          804,
+          818,
+          826,
+          834,
+          842,
+          894
+        ]
+      },
+      "coverage": {
+        "exports": 0.9999182340205857,
+        "imports": 0.9999939526932077
+      },
+      "notReported": {
+        "exports": [],
+        "imports": []
+      }
+    },
+    {
+      "year": 2017,
+      "file": "comtrade-740311-2017.json",
+      "sha256": "b159167060c195ab0d3b6201268e9c00eb9aa7b0684398e1c57335a4bdb19ffa",
+      "bytes": 126409,
+      "rows": 1447,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          68,
+          72,
+          76,
+          100,
+          104,
+          112,
+          124,
+          152,
+          156,
+          178,
+          180,
+          191,
+          196,
+          203,
+          233,
+          246,
+          251,
+          276,
+          300,
+          344,
+          348,
+          360,
+          364,
+          380,
+          392,
+          398,
+          410,
+          418,
+          458,
+          484,
+          490,
+          496,
+          516,
+          528,
+          579,
+          604,
+          608,
+          616,
+          620,
+          642,
+          643,
+          682,
+          688,
+          699,
+          702,
+          703,
+          705,
+          710,
+          724,
+          752,
+          757,
+          764,
+          784,
+          792,
+          804,
+          807,
+          818,
+          826,
+          834,
+          842,
+          860,
+          894
+        ],
+        "imports": [
+          12,
+          24,
+          32,
+          40,
+          44,
+          48,
+          50,
+          56,
+          72,
+          76,
+          100,
+          104,
+          112,
+          120,
+          124,
+          144,
+          156,
+          170,
+          180,
+          191,
+          192,
+          203,
+          208,
+          214,
+          218,
+          233,
+          246,
+          251,
+          266,
+          276,
+          288,
+          300,
+          344,
+          348,
+          352,
+          360,
+          364,
+          372,
+          376,
+          380,
+          392,
+          398,
+          410,
+          414,
+          418,
+          422,
+          442,
+          458,
+          484,
+          490,
+          504,
+          508,
+          512,
+          516,
+          524,
+          528,
+          558,
+          566,
+          579,
+          586,
+          604,
+          608,
+          616,
+          620,
+          634,
+          642,
+          643,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          729,
+          752,
+          757,
+          764,
+          780,
+          784,
+          788,
+          792,
+          804,
+          818,
+          826,
+          834,
+          842,
+          854,
+          858,
+          894
+        ]
+      },
+      "coverage": {
+        "exports": 0.999967946622783,
+        "imports": 0.9998615609256409
+      },
+      "notReported": {
+        "exports": [],
+        "imports": []
+      }
+    },
+    {
+      "year": 2018,
+      "file": "comtrade-740311-2018.json",
+      "sha256": "bf7d49872e3efe7d2a61bc686b4b544016ebd9d70cd9bfae101a71fc8db07cf3",
+      "bytes": 130021,
+      "rows": 1491,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          48,
+          56,
+          68,
+          76,
+          100,
+          104,
+          112,
+          124,
+          152,
+          156,
+          178,
+          180,
+          191,
+          196,
+          203,
+          246,
+          251,
+          268,
+          276,
+          300,
+          344,
+          348,
+          360,
+          364,
+          380,
+          392,
+          398,
+          410,
+          414,
+          418,
+          428,
+          440,
+          458,
+          484,
+          490,
+          496,
+          512,
+          516,
+          528,
+          566,
+          579,
+          604,
+          608,
+          616,
+          620,
+          642,
+          643,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          724,
+          752,
+          757,
+          764,
+          784,
+          792,
+          804,
+          807,
+          826,
+          834,
+          842,
+          860,
+          894
+        ],
+        "imports": [
+          31,
+          32,
+          36,
+          40,
+          48,
+          50,
+          51,
+          56,
+          68,
+          70,
+          72,
+          76,
+          96,
+          100,
+          112,
+          124,
+          152,
+          156,
+          170,
+          188,
+          191,
+          192,
+          196,
+          203,
+          208,
+          218,
+          231,
+          246,
+          251,
+          268,
+          276,
+          288,
+          300,
+          340,
+          344,
+          348,
+          360,
+          364,
+          372,
+          376,
+          380,
+          384,
+          392,
+          398,
+          410,
+          414,
+          418,
+          430,
+          440,
+          442,
+          450,
+          458,
+          484,
+          490,
+          504,
+          508,
+          512,
+          516,
+          528,
+          554,
+          558,
+          566,
+          579,
+          585,
+          586,
+          604,
+          608,
+          616,
+          620,
+          642,
+          643,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          729,
+          752,
+          757,
+          764,
+          780,
+          784,
+          788,
+          792,
+          800,
+          804,
+          818,
+          826,
+          834,
+          842,
+          854,
+          858,
+          860,
+          887,
+          894
+        ]
+      },
+      "coverage": {
+        "exports": 0.9998666223360231,
+        "imports": 0.9995660653200235
+      },
+      "notReported": {
+        "exports": [],
+        "imports": []
+      }
+    },
+    {
+      "year": 2019,
+      "file": "comtrade-740311-2019.json",
+      "sha256": "d31f9b5738185ec0724aece82557a4d36760cc9634f180fca551f1ba5b3c44d8",
+      "bytes": 124786,
+      "rows": 1433,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          56,
+          68,
+          70,
+          76,
+          100,
+          104,
+          124,
+          152,
+          156,
+          178,
+          180,
+          196,
+          203,
+          208,
+          246,
+          251,
+          268,
+          276,
+          300,
+          344,
+          348,
+          360,
+          364,
+          376,
+          380,
+          384,
+          392,
+          398,
+          410,
+          418,
+          434,
+          440,
+          442,
+          458,
+          484,
+          490,
+          496,
+          512,
+          516,
+          528,
+          566,
+          579,
+          604,
+          608,
+          616,
+          620,
+          642,
+          643,
+          688,
+          699,
+          702,
+          703,
+          704,
+          710,
+          724,
+          752,
+          757,
+          764,
+          784,
+          788,
+          792,
+          804,
+          807,
+          826,
+          842,
+          860,
+          894
+        ],
+        "imports": [
+          31,
+          32,
+          36,
+          40,
+          48,
+          56,
+          64,
+          68,
+          76,
+          100,
+          104,
+          112,
+          116,
+          124,
+          144,
+          152,
+          156,
+          180,
+          188,
+          191,
+          192,
+          203,
+          214,
+          218,
+          231,
+          246,
+          251,
+          268,
+          276,
+          288,
+          300,
+          348,
+          352,
+          360,
+          372,
+          376,
+          380,
+          384,
+          388,
+          392,
+          398,
+          404,
+          410,
+          414,
+          417,
+          418,
+          422,
+          440,
+          442,
+          458,
+          484,
+          490,
+          504,
+          512,
+          524,
+          528,
+          554,
+          579,
+          586,
+          604,
+          608,
+          616,
+          620,
+          634,
+          642,
+          643,
+          682,
+          686,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          752,
+          757,
+          764,
+          784,
+          788,
+          792,
+          804,
+          818,
+          826,
+          834,
+          842,
+          854,
+          894
+        ]
+      },
+      "coverage": {
+        "exports": 0.9998967066854593,
+        "imports": 0.9952811409972541
+      },
+      "notReported": {
+        "exports": [],
+        "imports": []
+      }
+    },
+    {
+      "year": 2020,
+      "file": "comtrade-740311-2020.json",
+      "sha256": "7d2a879665173793bfd1f2d89bdfb5eebd40c34394b6b1b054ab51924c7d2808",
+      "bytes": 118628,
+      "rows": 1363,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          48,
+          56,
+          68,
+          76,
+          100,
+          104,
+          112,
+          124,
+          152,
+          156,
+          178,
+          180,
+          188,
+          191,
+          203,
+          208,
+          246,
+          251,
+          268,
+          276,
+          300,
+          344,
+          348,
+          360,
+          364,
+          380,
+          384,
+          392,
+          398,
+          410,
+          418,
+          440,
+          458,
+          484,
+          490,
+          496,
+          512,
+          516,
+          528,
+          566,
+          579,
+          604,
+          608,
+          616,
+          620,
+          642,
+          643,
+          646,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          724,
+          752,
+          757,
+          764,
+          784,
+          788,
+          792,
+          804,
+          807,
+          818,
+          826,
+          842,
+          860,
+          894
+        ],
+        "imports": [
+          24,
+          31,
+          32,
+          40,
+          44,
+          48,
+          56,
+          70,
+          76,
+          100,
+          104,
+          112,
+          124,
+          144,
+          152,
+          156,
+          178,
+          180,
+          188,
+          191,
+          192,
+          203,
+          208,
+          214,
+          218,
+          246,
+          251,
+          268,
+          276,
+          300,
+          320,
+          348,
+          360,
+          364,
+          372,
+          376,
+          380,
+          384,
+          392,
+          398,
+          400,
+          410,
+          414,
+          417,
+          418,
+          440,
+          442,
+          458,
+          484,
+          490,
+          504,
+          508,
+          512,
+          516,
+          524,
+          528,
+          554,
+          558,
+          579,
+          586,
+          598,
+          608,
+          616,
+          620,
+          642,
+          643,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          752,
+          757,
+          764,
+          784,
+          788,
+          792,
+          804,
+          818,
+          826,
+          834,
+          842,
+          854
+        ]
+      },
+      "coverage": {
+        "exports": 0.9999167451382688,
+        "imports": 0.9998819082230467
+      },
+      "notReported": {
+        "exports": [],
+        "imports": []
+      }
+    },
+    {
+      "year": 2021,
+      "file": "comtrade-740311-2021.json",
+      "sha256": "749b58572c7179077fcccf7da759dc97a03a6de94d8019ee940dd1993ae5c603",
+      "bytes": 123544,
+      "rows": 1421,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          48,
+          56,
+          68,
+          72,
+          76,
+          100,
+          104,
+          112,
+          124,
+          152,
+          156,
+          178,
+          180,
+          203,
+          208,
+          246,
+          251,
+          268,
+          276,
+          300,
+          344,
+          348,
+          360,
+          364,
+          372,
+          376,
+          380,
+          384,
+          392,
+          398,
+          410,
+          414,
+          418,
+          440,
+          458,
+          484,
+          490,
+          496,
+          516,
+          528,
+          566,
+          579,
+          604,
+          608,
+          616,
+          620,
+          642,
+          643,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          710,
+          724,
+          752,
+          757,
+          764,
+          784,
+          788,
+          792,
+          804,
+          807,
+          818,
+          826,
+          842,
+          860,
+          894
+        ],
+        "imports": [
+          24,
+          31,
+          32,
+          36,
+          40,
+          48,
+          52,
+          56,
+          72,
+          76,
+          100,
+          104,
+          112,
+          124,
+          144,
+          152,
+          156,
+          170,
+          180,
+          188,
+          191,
+          203,
+          208,
+          212,
+          214,
+          218,
+          246,
+          251,
+          258,
+          268,
+          276,
+          288,
+          296,
+          300,
+          340,
+          348,
+          352,
+          360,
+          364,
+          368,
+          372,
+          376,
+          380,
+          384,
+          388,
+          392,
+          398,
+          404,
+          410,
+          414,
+          440,
+          442,
+          458,
+          470,
+          480,
+          484,
+          490,
+          512,
+          528,
+          533,
+          566,
+          579,
+          586,
+          591,
+          600,
+          604,
+          608,
+          616,
+          620,
+          642,
+          643,
+          682,
+          686,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          748,
+          752,
+          757,
+          764,
+          784,
+          788,
+          792,
+          804,
+          818,
+          826,
+          842,
+          854,
+          860,
+          894
+        ]
+      },
+      "coverage": {
+        "exports": 0.9998871591772834,
+        "imports": 0.9999663655555049
+      },
+      "notReported": {
+        "exports": [],
+        "imports": []
+      }
+    },
+    {
+      "year": 2022,
+      "file": "comtrade-740311-2022.json",
+      "sha256": "92f6c8f00d353411ae413305e9cff61fdaf8eebe88e6dec10bb604d9d1d548a6",
+      "bytes": 123634,
+      "rows": 1423,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          56,
+          68,
+          76,
+          100,
+          104,
+          124,
+          152,
+          156,
+          178,
+          180,
+          203,
+          208,
+          246,
+          251,
+          276,
+          300,
+          344,
+          348,
+          360,
+          364,
+          380,
+          384,
+          392,
+          398,
+          410,
+          414,
+          418,
+          440,
+          458,
+          490,
+          496,
+          498,
+          516,
+          528,
+          554,
+          566,
+          579,
+          586,
+          604,
+          608,
+          616,
+          620,
+          642,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          724,
+          752,
+          757,
+          764,
+          784,
+          792,
+          804,
+          807,
+          818,
+          826,
+          834,
+          842,
+          860,
+          894
+        ],
+        "imports": [
+          31,
+          32,
+          36,
+          40,
+          44,
+          48,
+          51,
+          52,
+          56,
+          68,
+          76,
+          96,
+          100,
+          104,
+          116,
+          124,
+          144,
+          152,
+          156,
+          170,
+          180,
+          188,
+          191,
+          192,
+          196,
+          203,
+          208,
+          218,
+          233,
+          246,
+          251,
+          266,
+          268,
+          270,
+          276,
+          288,
+          300,
+          348,
+          352,
+          360,
+          372,
+          376,
+          380,
+          384,
+          388,
+          392,
+          398,
+          404,
+          410,
+          414,
+          418,
+          442,
+          458,
+          470,
+          484,
+          490,
+          498,
+          499,
+          504,
+          512,
+          516,
+          524,
+          528,
+          554,
+          566,
+          579,
+          586,
+          591,
+          600,
+          604,
+          608,
+          616,
+          620,
+          634,
+          642,
+          646,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          740,
+          752,
+          757,
+          764,
+          784,
+          788,
+          792,
+          804,
+          807,
+          818,
+          826,
+          834,
+          842,
+          854,
+          858,
+          894
+        ]
+      },
+      "coverage": {
+        "exports": 0.9511141980335514,
+        "imports": 0.999645608586097
+      },
+      "notReported": {
+        "exports": [
+          643
+        ],
+        "imports": []
+      }
+    },
+    {
+      "year": 2023,
+      "file": "comtrade-740311-2023.json",
+      "sha256": "0d44f4265e1d5b27187317b180104c870eda22b020dbf0de86563b79b81e57d0",
+      "bytes": 129979,
+      "rows": 1496,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          44,
+          56,
+          68,
+          100,
+          104,
+          124,
+          152,
+          156,
+          170,
+          178,
+          180,
+          191,
+          203,
+          246,
+          251,
+          276,
+          300,
+          344,
+          360,
+          364,
+          380,
+          384,
+          392,
+          398,
+          410,
+          417,
+          418,
+          440,
+          442,
+          458,
+          484,
+          490,
+          496,
+          504,
+          512,
+          528,
+          566,
+          579,
+          604,
+          608,
+          616,
+          620,
+          642,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          752,
+          757,
+          762,
+          764,
+          784,
+          792,
+          807,
+          826,
+          842,
+          860,
+          894
+        ],
+        "imports": [
+          20,
+          24,
+          31,
+          32,
+          36,
+          40,
+          48,
+          56,
+          70,
+          76,
+          100,
+          104,
+          120,
+          124,
+          144,
+          152,
+          156,
+          170,
+          178,
+          180,
+          188,
+          191,
+          203,
+          208,
+          218,
+          233,
+          246,
+          251,
+          268,
+          276,
+          288,
+          300,
+          320,
+          348,
+          352,
+          360,
+          364,
+          372,
+          376,
+          380,
+          384,
+          388,
+          392,
+          398,
+          400,
+          404,
+          410,
+          414,
+          428,
+          440,
+          442,
+          458,
+          470,
+          484,
+          490,
+          504,
+          508,
+          512,
+          516,
+          528,
+          566,
+          579,
+          586,
+          598,
+          604,
+          608,
+          616,
+          620,
+          642,
+          682,
+          688,
+          699,
+          702,
+          703,
+          704,
+          705,
+          710,
+          716,
+          724,
+          740,
+          752,
+          757,
+          762,
+          764,
+          784,
+          788,
+          792,
+          800,
+          804,
+          807,
+          818,
+          826,
+          834,
+          842,
+          887,
+          894
+        ]
+      },
+      "coverage": {
+        "exports": 0.9991992258294052,
+        "imports": 0.9999941630538529
+      },
+      "notReported": {
+        "exports": [],
+        "imports": []
+      }
+    },
+    {
+      "year": 2024,
+      "file": "comtrade-740311-2024.json",
+      "sha256": "b62edb81a4cbd46c10b4bcd9f7854ff76e45e6738d276f24dd90fff195737de3",
+      "bytes": 121400,
+      "rows": 1397,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          56,
+          68,
+          70,
+          76,
+          100,
+          104,
+          124,
+          144,
+          152,
+          156,
+          178,
+          180,
+          191,
+          203,
+          208,
+          246,
+          251,
+          276,
+          344,
+          348,
+          360,
+          380,
+          384,
+          392,
+          398,
+          404,
+          410,
+          417,
+          442,
+          458,
+          490,
+          504,
+          512,
+          516,
+          528,
+          566,
+          579,
+          604,
+          608,
+          616,
+          620,
+          642,
+          682,
+          688,
+          699,
+          702,
+          710,
+          724,
+          752,
+          757,
+          764,
+          792,
+          804,
+          807,
+          826,
+          834,
+          842,
+          860,
+          894
+        ],
+        "imports": [
+          12,
+          24,
+          31,
+          32,
+          36,
+          40,
+          48,
+          51,
+          56,
+          68,
+          70,
+          72,
+          76,
+          100,
+          124,
+          144,
+          152,
+          156,
+          170,
+          188,
+          191,
+          196,
+          203,
+          208,
+          218,
+          233,
+          246,
+          251,
+          276,
+          288,
+          300,
+          328,
+          348,
+          352,
+          360,
+          368,
+          372,
+          376,
+          380,
+          384,
+          388,
+          392,
+          398,
+          400,
+          404,
+          410,
+          414,
+          442,
+          458,
+          478,
+          484,
+          490,
+          504,
+          508,
+          512,
+          516,
+          528,
+          554,
+          566,
+          579,
+          586,
+          591,
+          598,
+          600,
+          604,
+          608,
+          616,
+          620,
+          634,
+          642,
+          682,
+          688,
+          699,
+          702,
+          703,
+          705,
+          710,
+          716,
+          724,
+          752,
+          757,
+          764,
+          780,
+          788,
+          792,
+          800,
+          804,
+          807,
+          818,
+          826,
+          834,
+          842,
+          854,
+          858,
+          887,
+          894
+        ]
+      },
+      "coverage": {
+        "exports": 0.9836813283715843,
+        "imports": 0.9357357898718985
+      },
+      "notReported": {
+        "exports": [],
+        "imports": [
+          784
+        ]
+      }
+    },
+    {
+      "year": 2025,
+      "file": "comtrade-740311-2025.json",
+      "sha256": "02b4caedf8c283d54dd759eefabf3395a3e112fb339ee77a90fd30d3ae39ba23",
+      "bytes": 117341,
+      "rows": 1348,
+      "reporters": {
+        "exports": [
+          31,
+          36,
+          40,
+          51,
+          56,
+          68,
+          70,
+          100,
+          104,
+          124,
+          144,
+          152,
+          156,
+          191,
+          196,
+          203,
+          208,
+          246,
+          251,
+          276,
+          344,
+          348,
+          360,
+          380,
+          384,
+          392,
+          398,
+          410,
+          414,
+          458,
+          484,
+          512,
+          516,
+          528,
+          566,
+          579,
+          608,
+          616,
+          642,
+          682,
+          688,
+          699,
+          702,
+          703,
+          705,
+          710,
+          724,
+          752,
+          757,
+          764,
+          792,
+          807,
+          818,
+          826,
+          842
+        ],
+        "imports": [
+          24,
+          31,
+          32,
+          36,
+          40,
+          51,
+          56,
+          68,
+          70,
+          76,
+          100,
+          104,
+          124,
+          144,
+          152,
+          156,
+          170,
+          191,
+          203,
+          208,
+          218,
+          233,
+          234,
+          246,
+          251,
+          268,
+          276,
+          288,
+          300,
+          320,
+          344,
+          348,
+          352,
+          360,
+          372,
+          376,
+          380,
+          384,
+          392,
+          398,
+          404,
+          410,
+          414,
+          442,
+          458,
+          470,
+          484,
+          498,
+          504,
+          508,
+          512,
+          516,
+          528,
+          566,
+          579,
+          586,
+          600,
+          608,
+          616,
+          620,
+          642,
+          646,
+          682,
+          688,
+          699,
+          702,
+          703,
+          705,
+          710,
+          724,
+          752,
+          757,
+          764,
+          780,
+          792,
+          807,
+          818,
+          826,
+          834,
+          842
+        ]
+      },
+      "coverage": {
+        "exports": 0.6582215031376779,
+        "imports": 0.9427299350373145
+      },
+      "notReported": {
+        "exports": [
+          180,
+          604
+        ],
+        "imports": [
+          490
+        ]
+      }
+    }
+  ]
+}
